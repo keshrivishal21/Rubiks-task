@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper{
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    margin-bottom: 8rem;
+}
+.heading img{
+    border-radius: 20px;
+}
+.heading small{
+    font-size: 3rem;
+}
+.main{
+    width: 60%;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(223, 199, 168,0.2);
+    border-radius: 20px;
+    border: 2px solid rgb(204, 174, 135);
+    box-shadow: 5px 5px 7px rgb(198, 168, 130);
+    margin-bottom: 5rem;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: baseline;
+    font-size: 40px;
+    gap: 1rem;
+    margin: 0 1rem;
+}
+.button-1 {
+    background-color: rgba(254, 225, 187, 0.2);
+    border: 2px solid rgb(204, 174, 135);
+    border-radius: 30px;
+    box-shadow: rgb(198, 168, 130) 4px 4px 0 0;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 1rem;
+}
+
+.button-1:hover {
+    background-color: #fff;
+}
+
+.button-1:active {
+    box-shadow: rgb(198, 168, 130) 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+.footer{
+    height: 100px;
+    border-top: 3px solid rgb(230, 204, 171);
+    background-color: rgb(230, 212, 188);
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.about{
+    height: 400px;
+    overflow: auto;
+    font-family:monospace;
+    font-size: 28px;
+    margin:0 1rem;
+    padding:0 0.5rem;
+    text-align: justify;
+    margin-top: 0.5rem;
+    scroll-behavior: smooth;
+}
+.about::-webkit-scrollbar {
+    display: none;
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
